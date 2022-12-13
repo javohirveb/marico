@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first__color {
+    color: #6C757D;
+}
+
+.third__color {
+    color: #FE6783;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(0deg, #FE6783 1.9%, #FFBF84 97.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dropdown-item:hover {
+    background-color: #306EF7;
+}
+
+.dropdown-item:focus,
+.nav-link:focus {
+    color: #707070;
+}
+
+.nav-link:hover {
+    color: #306EF7;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #306EF7;
+}
+
+.other__container {
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__link {
+    width: 100%;
+}
+
+.heading__color {
+    color: #919191;
+}
+
+section {
+    margin-top: 160px;
+}
+
+.control {
+    background: url(../images/Image\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    padding: 290px 30px;
+}
+
+.scale-img {
+    transform: scale(1.5);
+    margin-top: 80px;
+}
+
+.sm-container {
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.bi-person, .bi-eye, .bi-at {
+    transform: scale(2);
+}
+
+@media only screen and (min-width: 992px) {
+    .pos-img {
+        margin-left: 89px;
+    }
+
+}
